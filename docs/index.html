@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Podly – Battery for AirPods</title>
+<style>
+  :root { --bg:#F2F4F3; --ink:#0E1B18; --muted:#4C5B57; --brand:#1F7A6D; --card:#fff; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0F1A17; --ink:#E6F1EE; --muted:#9DB2AD; --brand:#6FD3C0; --card:#14211E; } }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:32px 16px 64px; }
+  img.hero { width:100%; border-radius:20px; }
+  h1 { font-size:34px; margin:28px 0 4px; }
+  p.lead { color:var(--muted); margin:0 0 24px; }
+  .card { background:var(--card); border-radius:20px; padding:20px; margin:16px 0; }
+  a { color:var(--brand); font-weight:600; }
+  .shots { display:flex; gap:12px; overflow-x:auto; padding-bottom:8px; }
+  .shots img { height:420px; border-radius:16px; }
+  footer { color:var(--muted); font-size:14px; margin-top:32px; }
+</style>
+</head>
+<body>
+<main>
+  <img class="hero" src="feature-graphic-1024x500.png" alt="Podly: your AirPods battery, on Android">
+  <h1>Podly</h1>
+  <p class="lead">Battery, case and ear status for AirPods on Android. Free, no ads, no account, no internet access.</p>
+
+  <div class="card">
+    <strong>Tested on AirPods Pro 2 (USB-C).</strong> Other models follow public information about how AirPods report their state, so a feature can behave differently. In the app, Settings &rarr; Compatibility shows what has really worked on your earbuds and lets you send a short report about your model.
+  </div>
+
+  <div class="shots">
+    <img src="screenshots/home.png" alt="Home">
+    <img src="screenshots/wear.png" alt="Battery wear">
+    <img src="screenshots/history.png" alt="History">
+    <img src="screenshots/widgets.png" alt="Widgets">
+  </div>
+
+  <div class="card">
+    <a href="../README.md">Install, features and how to report your model</a><br>
+    <a href="../PRIVACY.md">Privacy policy</a><br>
+    Contact: <a href="mailto:podly.support@gmail.com">podly.support@gmail.com</a>
+  </div>
+
+  <footer>Podly is an independent app. It is not affiliated with, endorsed by or sponsored by Apple Inc. "AirPods" is a trademark of Apple Inc.</footer>
+</main>
+</body>
+</html>
