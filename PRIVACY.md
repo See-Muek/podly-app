@@ -17,7 +17,7 @@ Podly is an independent app that shows the battery level and status of your AirP
 - **Bluetooth signals from nearby AirPods** (battery levels, whether each earbud is in your ear, whether the case lid is open). Podly uses the "Nearby devices" (Bluetooth scan/connect) permission for this. Podly does **not** use or request your location. The scan permission is declared as "never used for location".
 - **Your paired Bluetooth devices' names and addresses**, only to find which one is your AirPods and to show its name. Nothing is sent anywhere.
 - **Whether a few well-known AirPods apps are installed** (PodsLink, CAPod, AndroPods, LibrePods, another copy of Podly). Podly only checks for these named apps, only to warn you that they may be holding the single connection that 1% battery detail needs. It does not read your list of installed apps, and nothing is sent anywhere.
-- **Optional "1% battery detail":** if you turn it on, Podly opens a direct Bluetooth connection to your AirPods to read whole-percent battery values. It only reads; it does not change any AirPods setting.
+- **Optional "1% battery detail":** if you turn it on, Podly opens a direct Bluetooth connection to your AirPods to read whole-percent battery values. It only reads; it does not change any AirPods setting. When 1% battery detail is on, Podly asks the AirPods for their broadcast key once, keeps it only on this phone (excluded from backup and device transfer), uses it only to read the battery values from your AirPods' own broadcasts, and deletes it when the option is turned off.
 
 ### What the app stores (on your phone only)
 - Battery history of your earbuds and case for the last 30 days (used for the History chart, time-left estimates and Health estimates).
@@ -64,7 +64,7 @@ Podly เป็นแอปอิสระที่แสดงระดับ�
 - **สัญญาณบลูทูธจาก AirPods ที่อยู่ใกล้** (ระดับแบตเตอรี่ สถานะใส่หูของแต่ละข้าง และฝาเคสเปิดหรือปิด) แอปใช้สิทธิ์ "อุปกรณ์ใกล้เคียง" (สแกน/เชื่อมต่อบลูทูธ) Podly **ไม่ใช้และไม่ขอตำแหน่งของคุณ** สิทธิ์สแกนถูกประกาศว่า "ไม่ใช้เพื่อหาตำแหน่ง"
 - **ชื่อและที่อยู่ของอุปกรณ์บลูทูธที่จับคู่ไว้** เพื่อหาว่าอันไหนคือ AirPods ของคุณและแสดงชื่อเท่านั้น ไม่ถูกส่งไปที่ใด
 - **ตรวจว่ามีแอป AirPods ที่รู้จักไม่กี่แอปติดตั้งอยู่หรือไม่** (PodsLink, CAPod, AndroPods, LibrePods และ Podly อีกชุด) Podly ตรวจเฉพาะแอปที่ระบุชื่อเหล่านี้ เพื่อเตือนว่าอาจถือการเชื่อมต่อเดียวที่ 1% battery detail ต้องใช้ ไม่ได้อ่านรายชื่อแอปทั้งหมดในเครื่อง และไม่ส่งข้อมูลไปที่ใด
-- **"1% battery detail" (ทางเลือก):** ถ้าคุณเปิด แอปจะเชื่อมต่อบลูทูธกับ AirPods โดยตรงเพื่ออ่านแบตเตอรี่เป็นเปอร์เซ็นต์เต็ม อ่านอย่างเดียว ไม่เปลี่ยนการตั้งค่าใด ๆ ของ AirPods
+- **"1% battery detail" (ทางเลือก):** ถ้าคุณเปิด แอปจะเชื่อมต่อบลูทูธกับ AirPods โดยตรงเพื่ออ่านแบตเตอรี่เป็นเปอร์เซ็นต์เต็ม อ่านอย่างเดียว ไม่เปลี่ยนการตั้งค่าใด ๆ ของ AirPods เมื่อเปิด 1% battery detail ไว้ Podly จะขอคีย์สำหรับอ่านสัญญาณจาก AirPods ครั้งเดียว เก็บไว้ในโทรศัพท์เครื่องนี้เท่านั้น (ไม่รวมในการสำรองข้อมูลและการย้ายเครื่อง) ใช้เพื่ออ่านค่าแบตเตอรี่จากสัญญาณที่ AirPods ของคุณส่งออกมาเท่านั้น และลบทิ้งเมื่อปิดตัวเลือกนี้
 
 ### สิ่งที่แอปเก็บ (ในโทรศัพท์ของคุณเท่านั้น)
 - ประวัติแบตเตอรี่ของหูฟังและเคส 30 วันล่าสุด (ใช้กับกราฟประวัติ เวลาที่เหลือ และการประเมินสุขภาพแบต)
