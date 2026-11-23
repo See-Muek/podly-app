@@ -11,7 +11,7 @@ Battery, case and ear status for AirPods on Android. Free, no ads, no account, n
 - Time left per earbud, and a Battery wear page that estimates how long one charge lasts compared with the rating for your model
 - In-ear status that follows within a few seconds when the optional 1% battery detail is on
 - Pause music when an earbud comes out, resume when it goes back in
-- Noise control (off / noise cancelling / transparency / adaptive) on models that support it, when 1% battery detail is on
+- Noise control (noise cancelling / transparency) on models that report these modes, when 1% battery detail is on. Off and Adaptive are not offered: on AirPods Pro 2 (USB-C) the earbuds ignore Off and switch to Off when asked for Adaptive
 - Low-battery, fully-charged, case-opened and "not charging" alerts
 - Three home-screen widgets (4×1, 4×2, 2×2), a quick settings tile, and a choice of status-bar icon (battery bars, number, or Podly mark)
 - 30 days of battery history, stored on the phone only. English and Thai.
